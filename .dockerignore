@@ -1,5 +1,9 @@
+# dockerignore 
 .git
-Dockerfile
+
+# note: Unlike the Docker Hub, the Dockerfile is part of the build context on Quay. 
+# Thus, it must not appear in the .dockerignore file.
+# Dockerfile
 *.tgz
 *.tar.gz
 
