@@ -1,6 +1,30 @@
 # dockerignore 
 .git
 
+
+.circleci
+.dockerignore
+.git
+.github
+.gitignore
+appveyor.yml
+build
+/vndr.log
+.editorconfig
+.git
+AUTHORS.md
+CONTRIBUTING.md
+LICENSE
+Makefile
+NOTICE
+README.md
+
+.git
+.gitignore
+Dockerfile
+
+docker-compose.yml
+
 # note: Unlike the Docker Hub, the Dockerfile is part of the build context on Quay. 
 # Thus, it must not appear in the .dockerignore file.
 # Dockerfile
